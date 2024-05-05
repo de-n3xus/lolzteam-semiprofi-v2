@@ -133,7 +133,7 @@ if (process.client) {
                 <div class="flex justify-center gap-x-6 gap-y-4 flex-wrap 650:flex-nowrap">
                     <div class="grid items-center gap-3.5 relative 650:max-w-[50%] w-full">
                         <div class="fakeInput relative">
-                            {{ exchange?.get_value }}
+                            {{ exchange?.send_value }}
                             <span class="text-[#00c394] ml-1 font-medium">
                                 {{ exchange?.send_name }}
                             </span>
